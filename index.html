@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artist Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: #000;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #444;
+      padding-bottom: .5rem;
+    }
+    .music-links a, .merch a, .shows a {
+      display: block;
+      padding: .5rem 0;
+      color: #4fd1c5;
+      text-decoration: none;
+    }
+    .early-access {
+      background: #222;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    button {
+      background: #4fd1c5;
+      color: #000;
+      border: none;
+      padding: .7rem 1.2rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Artist Name</h1>
+    <nav>
+      <a href="#music">Music</a>
+      <a href="#merch">Merch</a>
+      <a href="#shows">Shows</a>
+      <a href="#early">Early Access</a>
+    </nav>
+  </header>
+
+  <section id="music">
+    <h2>Listen</h2>
+    <p>Links to your music on major platforms:</p>
+    <div class="music-links">
+      <a href="https://open.spotify.com/artist/7cX5nIwB2BeI30nhWzs3yH" target="_blank">Spotify</a>
+      <a href="https://music.apple.com/us/artist/lonnie/1525118475" target="_blank">Apple Music</a>
+      <a href="https://tidal.com/browse/artist/3948559" target="_blank">TIDAL</a>
+      <a href="https://www.youtube.com/channel/UCvdcNrCwhpNDRW59ZdkhShA" target="_blank">YouTube</a>
+      <a href="https://soundcloud.com/lionelwavyy" target="_blank">SoundCloud</a>
+      <a href="https://linktr.ee/hilonnie" target="_blank">Linktree</a>
+    </div>
+  </section>
+
+  <section id="merch">
+    <h2>Merch</h2>
+    <p>Your merch will appear here once it's ready.</p>
+    <div class="merch">
+      <a href="#">Coming Soon</a>
+    </div>
+  </section>
+
+  <section id="shows">
+    <h2>Shows</h2>
+    <p>Upcoming shows and ticket links:</p>
+    <div class="shows">
+      <a href="#">No shows listed yet</a>
+    </div>
+  </section>
+
+  <section id="early">
+    <h2>Early Song Access</h2>
+    <p>Fans can pay $5 to get early access to exclusive tracks.</p>
+    <div class="early-access">
+      <p>To activate payment, you'll connect Stripe or PayPal later.</p>
+      <button>Pay $5 for Early Access</button>
+    </div>
+  </section>
+</body>
+</html>
